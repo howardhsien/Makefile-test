@@ -1,0 +1,1 @@
+int readsth(char * filename);
