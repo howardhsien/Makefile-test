@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define CHUNK 1024 /* read 1024 bytes at a time */
 
-int readSth(char * filename){
+int readsth(char * filename){
    char buf[CHUNK];
    FILE *file;
    size_t nread;
